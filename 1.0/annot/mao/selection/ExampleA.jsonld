@@ -1,0 +1,53 @@
+{
+  "@context": {
+    "ssv": "https://w3id.org/ssv",
+    "musMat": "https://w3id.org/ssv/annot/mao/musicalMaterial/",
+    "extract": "https://w3id.org/ssv/annot/mao/extract/",
+    "selection": "https://w3id.org/ssv/annot/mao/selection/",
+    "schema": "https://schema.org/",
+    "mao": "https://domestic-beethoven.eu/ontology/1.0/music-annotation-ontology.ttl#",
+    "frbr": "http://purl.org/vocab/frbr/core#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@id": "selection:ExampleA",
+  "@type": [
+    "mao:Selection",
+    "schema:Dataset"
+  ],
+  "dcterms:created": "2024-05-28T11:06:41.160Z",
+  "dcterms:creator": {
+    "@id": "https://ssv.solidcommunity.net/profile/card#me"
+  },
+  "dcterms:provenance": "Generated using mei-friend v.1.0.14: https://mei-friend.mdw.ac.at",
+  "frbr:part": [
+    {
+      "@id": "https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#m1owjg7w"
+    },
+    {
+      "@id": "https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#m81ezew"
+    },
+    {
+      "@id": "https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#mscwwh1"
+    },
+    {
+      "@id": "https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#mfjxsck"
+    },
+    {
+      "@id": "https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#msvibxw"
+    },
+    {
+      "@id": "https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#m18c2ney"
+    },
+    {
+      "@id": "https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#mp6jtjs"
+    },
+    {
+      "@id": "https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#m3f3qx3"
+    }
+  ],
+  "rdfs:label": "Example A",
+  "schema:about": {
+    "@id": "https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei"
+  }
+}
