@@ -1,6 +1,6 @@
 {
   "@context": {
-    "ssv": "https://w3id.org/ssv",
+    "ssv": "https://w3id.org/ssv/",
     "musMat": "https://w3id.org/ssv/annot/mao/musicalMaterial/",
     "extract": "https://w3id.org/ssv/annot/mao/extract/",
     "selection": "https://w3id.org/ssv/annot/mao/selection/",
