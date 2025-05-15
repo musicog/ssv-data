@@ -1,0 +1,31 @@
+{
+  "@context": {
+    "oa": "http://www.w3.org/ns/oa#",
+    "anno": "https://w3id.org/ssv/annot/oa/",
+    "musMat": "https://w3id.org/ssv/annot/mao/musicalMaterial/",
+    "extract": "https://w3id.org/ssv/annot/mao/extract/",
+    "selection": "https://w3id.org/ssv/annot/mao/selection/",
+    "mao": "https://domestic-beethoven.eu/ontology/1.0/music-annotation-ontology.ttl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "dcterms:creator": {
+    "@id": "https://orcid.org/0000-0002-2055-273X",
+    "rdfs:label": "Dr. Chanda VanderHart"
+  },
+  "@type": "oa:Annotation",
+  "@id": "anno:ExampleB",
+  "oa:motivatedBy": "mao:commentary",
+  "oa:hasBody": [
+    {
+      "@type": "oa:TextualBody",
+      "rdf:value": "The cello solos—first in the Introduction and later in the Più meno section of the Coda at bar 461 (when the Ballsprung is not employed)—have notably evolved over time, both in tempo and character. In earlier recordings, such as the Vienna Philharmonic’s 1946 performance and Karl Böhm’s 1939 rendition with the Sächsische Staatskapelle Dresden, the solo is performed not by a single cellist, but by the full cello section. These interpretations retain a relatively brisk tempo, consistent with the surrounding material. The same is true in Wilhelm Furtwängler’s 1950 recording with the Vienna Philharmonic. In contrast, later performances almost universally treat the passage as a true solo, entrusted to a single cellist. Over time, this moment has become increasingly prominent and expressive—marked by a discernible slowing of tempo, heightened rubato, and a more overtly performative approach that sets it apart from earlier, more integrated treatments."
+    }
+  ],
+  "oa:hasTarget": [
+    {
+      "@id": "musMat:ExampleB"
+    }
+  ]
+}

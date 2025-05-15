@@ -1,0 +1,31 @@
+{
+  "@context": {
+    "oa": "http://www.w3.org/ns/oa#",
+    "anno": "https://w3id.org/ssv/annot/oa/",
+    "musMat": "https://w3id.org/ssv/annot/mao/musicalMaterial/",
+    "extract": "https://w3id.org/ssv/annot/mao/extract/",
+    "selection": "https://w3id.org/ssv/annot/mao/selection/",
+    "mao": "https://domestic-beethoven.eu/ontology/1.0/music-annotation-ontology.ttl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "dcterms:creator": {
+    "@id": "https://orcid.org/0000-0002-2055-273X",
+    "rdfs:label": "Dr. Chanda VanderHart"
+  },
+  "@type": "oa:Annotation",
+  "@id": "anno:ExampleI",
+  "oa:motivatedBy": "mao:commentary",
+  "oa:hasBody": [
+    {
+      "@type": "oa:TextualBody",
+      "rdf:value": "In both pre-mid-century recordings, the Coda is entirely omitted. In their 1946 studio performance under Herbert von Karajan, the Vienna Philharmonic adopts a modified version of the so-called Ballsprung—an alternative ending composed by Strauss for occasions when the waltz was actively danced. This cut bypasses the inherent rhythmic disruptions characteristic of Strauss’s Codas, which, unlike the more regular internal waltz sections, present notable challenges for dancers. Following Waltz No. 4, the Philharmonic transitions directly from bar 454 to the final twelve measures of the piece."
+    }
+  ],
+  "oa:hasTarget": [
+    {
+      "@id": "musMat:ExampleI"
+    }
+  ]
+}

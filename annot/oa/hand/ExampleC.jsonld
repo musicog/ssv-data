@@ -1,0 +1,31 @@
+{
+  "@context": {
+    "oa": "http://www.w3.org/ns/oa#",
+    "anno": "https://w3id.org/ssv/annot/oa/",
+    "musMat": "https://w3id.org/ssv/annot/mao/musicalMaterial/",
+    "extract": "https://w3id.org/ssv/annot/mao/extract/",
+    "selection": "https://w3id.org/ssv/annot/mao/selection/",
+    "mao": "https://domestic-beethoven.eu/ontology/1.0/music-annotation-ontology.ttl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "dcterms:creator": {
+    "@id": "https://orcid.org/0000-0002-2055-273X",
+    "rdfs:label": "Dr. Chanda VanderHart"
+  },
+  "@type": "oa:Annotation",
+  "@id": "anno:ExampleC",
+  "oa:motivatedBy": "mao:commentary",
+  "oa:hasBody": [
+    {
+      "@type": "oa:TextualBody",
+      "rdf:value": "The most conspicuous departure from Strauss’s original scoring appears in André Rieu’s 2013 recording with his Dutch Johann Strauss Orchestra, Das große Neujahrskonzert. Throughout the performance, Rieu employs wooden concert flutes, notably doubling them with the clarinet line in the Introduction. This addition introduces a distinct timbral shift, softening the color and subtly reshaping the orchestral balance from the outset."
+    }
+  ],
+  "oa:hasTarget": [
+    {
+      "@id": "musMat:ExampleC"
+    }
+  ]
+}

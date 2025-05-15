@@ -1,0 +1,31 @@
+{
+  "@context": {
+    "oa": "http://www.w3.org/ns/oa#",
+    "anno": "https://w3id.org/ssv/annot/oa/",
+    "musMat": "https://w3id.org/ssv/annot/mao/musicalMaterial/",
+    "extract": "https://w3id.org/ssv/annot/mao/extract/",
+    "selection": "https://w3id.org/ssv/annot/mao/selection/",
+    "mao": "https://domestic-beethoven.eu/ontology/1.0/music-annotation-ontology.ttl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "dcterms:creator": {
+    "@id": "https://orcid.org/0000-0002-2055-273X",
+    "rdfs:label": "Dr. Chanda VanderHart"
+  },
+  "@type": "oa:Annotation",
+  "@id": "anno:ExampleF",
+  "oa:motivatedBy": "mao:commentary",
+  "oa:hasBody": [
+    {
+      "@type": "oa:TextualBody",
+      "rdf:value": "A notable departure from traditional Viennese performance practice occurs at the onset of Waltz No. 4. In the final measure preceding the waltz’s entrance, most orchestras observe an unwritten fermata on the second beat, significantly prolonging the dotted quarter note. From there, Viennese interpretations typically shape the phrase toward the forte downbeat of bar 262, treating it as a subtle climax. This is often achieved by slightly retarding the tempo in the preceding bar, though some conductors maintain a near-in-tempo approach that nonetheless drives directly into the downbeat with intentional phrasing. In all such cases, the momentum leads clearly into the arrival. By contrast, the Tyrolean K&K Philharmonie under Matthias Georg Kendlinger, in their 2010 recording, diverge from this convention. Following an extended fermata, they proceed through bars 260 and 261 at a brisk and unyielding pace, only to insert an abrupt and unprepared caesura immediately before the downbeat—both in the initial statement and in the repetition—disrupting the phrase's natural trajectory."
+    }
+  ],
+  "oa:hasTarget": [
+    {
+      "@id": "musMat:ExampleF"
+    }
+  ]
+}

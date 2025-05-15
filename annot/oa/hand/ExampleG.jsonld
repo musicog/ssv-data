@@ -1,0 +1,31 @@
+{
+  "@context": {
+    "oa": "http://www.w3.org/ns/oa#",
+    "anno": "https://w3id.org/ssv/annot/oa/",
+    "musMat": "https://w3id.org/ssv/annot/mao/musicalMaterial/",
+    "extract": "https://w3id.org/ssv/annot/mao/extract/",
+    "selection": "https://w3id.org/ssv/annot/mao/selection/",
+    "mao": "https://domestic-beethoven.eu/ontology/1.0/music-annotation-ontology.ttl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "dcterms:creator": {
+    "@id": "https://orcid.org/0000-0002-2055-273X",
+    "rdfs:label": "Dr. Chanda VanderHart"
+  },
+  "@type": "oa:Annotation",
+  "@id": "anno:ExampleG",
+  "oa:motivatedBy": "mao:commentary",
+  "oa:hasBody": [
+    {
+      "@type": "oa:TextualBody",
+      "rdf:value": "Orchestras in European countries—particularly within the German-speaking world—tend to tune slightly higher than their American counterparts, whose concert A typically falls between 440 Hz and 442 Hz, depending on the ensemble. While this difference may go unnoticed by the average listener, it becomes strikingly apparent when directly comparing, for example, a 1982 recording by the New York Philharmonic with contemporaneous performances by the Berlin Philharmonic and the Vienna Volksoper Orchestra."
+    }
+  ],
+  "oa:hasTarget": [
+    {
+      "@id": "musMat:ExampleG"
+    }
+  ]
+}
